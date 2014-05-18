@@ -1,4 +1,6 @@
-delivery-pipeline-plugin-themes
+CSS Themes for Delivery Pipeline Plugin
 ===============================
 
-CSS for delivery-pipeline-plugin
+Here is a place for themes in CSS for Delivery Pipeline Plugin.
+
+Please submit themes by opening a pull request.

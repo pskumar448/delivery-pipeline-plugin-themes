@@ -1,0 +1,117 @@
+
+
+div.stage {
+    margin-right: 60px;
+    min-width: 180px;
+    border: solid 1px #C8C8C8;    
+	
+	margin-bottom: 20px;
+  background-color: #ffffff;
+  border: 1px solid #337ab7;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+div.stage-header {
+    border-bottom: solid 1px #C8C8C8;
+    background: #E8E8E8;
+    font-size: 14px;
+    font-weight: bold;
+    display: table;
+    width: 100%;
+    white-space: nowrap;
+	
+	padding-top:3px;
+	padding-bottom:3px;
+  border-bottom: 1px solid transparent;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+  color: #ffffff;
+  background-color: #337ab7;
+  border-color: #337ab7;
+}
+
+div.task-progress-running {
+    background-color: #d9edf7;
+    animation-duration: 1s;
+    animation-name: bluePulse;
+    animation-iteration-count: infinite;
+
+    -webkit-animation-name: bluePulse;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+
+}
+
+@keyframes bluePulse {
+    0% {
+        background-color: #bee9ff;
+    }
+    50% {
+        background-color: #6cceff;
+    }
+    100% {
+        background-color: #4ac1fe;
+    }
+}
+
+@-webkit-keyframes bluePulse {
+    from {
+        background-color: #bee9ff;
+    }
+    50% {
+        background-color: #6cceff;
+    }
+    to {
+        background-color: #4ac1fe;
+    }
+}
+
+.IDLE {
+    border-left: 6px solid #d3d3d3;
+}
+
+.QUEUED {
+    border-left: 6px solid #31708f;
+}
+
+.FAILED {
+    border-left: 6px solid #a94442;
+    background-color: #f2dede;
+}
+
+.SUCCESS {
+    border-left: 6px solid #3c763d;
+	background-color:#dff0d8;
+}
+
+.UNSTABLE {
+    border-left: 6px solid #fee45f;
+    background-color: #fcff94;
+    font-weight: bold;
+}
+
+.CANCELLED {
+    border-left: 6px solid #8a6d3b;
+    background-color: #fcf8e3;
+    font-weight: bold;
+}
+
+.NOT_BUILT {
+    border-left: 6px solid #8b8989;
+    background-color: #d3d3d3;
+    font-weight: bold;
+}
+
+
+.DISABLED {
+    border-left: 6px solid transparent;
+    color: #a9a9a9;
+}
+
+.RUNNING {
+    border-left: 6px solid #31708f;
+}
+
+
